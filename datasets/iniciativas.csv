@@ -1,0 +1,13 @@
+﻿id,iniciativa,horas,valor
+PR-01,Capacitacion IA,12,24
+PR-02,Chatbot interno,15,31
+PR-03,Monitoreo de red,10,23
+PR-04,Automatizacion RUC,9,19
+PR-05,Tablero de ventas,8,17
+PR-06,Refactorizacion API,14,29
+PR-07,Mesa de ayuda,7,13
+PR-08,Seguridad SIEM,16,35
+PR-09,Pruebas E2E,11,25
+PR-10,ETL de clientes,13,28
+PR-11,Alertas inventario,6,12
+PR-12,Portal proveedores,17,36

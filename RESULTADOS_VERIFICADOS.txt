@@ -1,0 +1,54 @@
+
+=======================================================
+CASO 1 / CSV: datasets/inventario.csv
+Filas: 500 | Unidades: 21941 | Valor: S/ 1076489.30 | Bajo mínimo: 131
+Variante          Tiempo(ms)         Visitas  Comparaciones    Prof.max.        Podas
+Recursiva             0.6926             501            500          501            0
+Iterativa             0.2002             500            500            1            0
+¿Mismo resultado? true
+NOTA: una sola medición no es un benchmark concluyente; comparar también Big O y pila.
+Se mide cálculo; leer y mapear el CSV NO se incluye en el tiempo.
+
+=======================================================
+CASO 2 / CSV: datasets/pedidos.csv
+Filas: 300 | ID: PED-0240 | Índice 0-based: 239
+Pedido: Order[id=PED-0240, customer=Cliente 240, amountCents=1412, status=PENDIENTE]
+Variante          Tiempo(ms)         Visitas  Comparaciones    Prof.max.        Podas
+Recursiva             0.4118             240            240          240            0
+Iterativa             0.1735             240            240            1            0
+¿Mismo resultado? true
+NOTA: una sola medición no es un benchmark concluyente; comparar también Big O y pila.
+Se mide cálculo; leer y mapear el CSV NO se incluye en el tiempo.
+
+=======================================================
+CASO 3 / CSV: datasets/temperaturas.csv
+Filas: 256 | Índice de máximo: 188
+Mayor temperatura: 46.7 °C | Temperature[timestamp=2026-11-07 15:40, sensor=S-01, deciCelsius=467]
+Variante          Tiempo(ms)         Visitas  Comparaciones    Prof.max.        Podas
+Recursiva             0.3214             511            255            9            0
+Iterativa             0.0504             256            255            1            0
+¿Mismo resultado? true
+NOTA: una sola medición no es un benchmark concluyente; comparar también Big O y pila.
+Se mide cálculo; leer y mapear el CSV NO se incluye en el tiempo.
+
+=======================================================
+CASO 4 / CSV: datasets/produccion.csv
+Filas: 80 | Primera anomalía (índice 0-based): 45
+Evento: Production[sequence=46, phase=ENSAMBLE, batch=LOTE-023]
+Variante          Tiempo(ms)         Visitas  Comparaciones    Prof.max.        Podas
+Recursiva             0.3045              46             46           46            0
+Iterativa             0.0194              46             46            1            0
+¿Mismo resultado? true
+NOTA: una sola medición no es un benchmark concluyente; comparar también Big O y pila.
+Se mide cálculo; leer y mapear el CSV NO se incluye en el tiempo.
+
+=======================================================
+CASO 5 / CSV: datasets/iniciativas.csv
+Filas: 12 | Capacidad: 45 h | Valor máximo: 100 puntos | Uso: 45 h
+Elegidas: PR-03 PR-05 PR-08 PR-09 
+Variante          Tiempo(ms)         Visitas  Comparaciones    Prof.max.        Podas
+Recursiva             1.0332            2233           2233           13         1107
+Iterativa             4.4358            4096          17877            1         3551
+¿Mismo resultado? true
+NOTA: una sola medición no es un benchmark concluyente; comparar también Big O y pila.
+Se mide cálculo; leer y mapear el CSV NO se incluye en el tiempo.
